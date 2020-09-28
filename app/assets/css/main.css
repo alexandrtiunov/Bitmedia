@@ -1,0 +1,258 @@
+/* Rectangle 8 */
+.rectangle_8{
+    position: absolute;
+    width: 100%;
+    height: 72px;
+    left: 0;
+    top: 0;
+    background: #3A80BA;
+}
+
+/* Stats */
+.stats{
+    /*position: relative;*/
+    width: auto;
+    height: auto;
+    background: #FFFFFF;
+}
+
+.breadcrumb{
+    position: absolute;
+    height: 20px;
+    left: 130px;
+    top: 88px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #CCCCCC;
+
+    display:flex;
+    flex-wrap:wrap;
+    padding:.75rem 1rem;
+    margin-bottom:1rem;
+    list-style:none;
+    border-radius:.25rem
+
+}
+
+/* Rectangle 9 */
+.rectangle_9{
+
+    width: 100%;
+    height: 100%;
+    left: 130px;
+    top: 187px;
+    margin-top: 16%;
+}
+
+.rectangle_9 th{
+    padding: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    background: #3A80BA;
+    border-right: 1px solid #FFFFFF;
+}
+
+/* Rectangle 10 */
+.rectangle_9 td{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+    color: #1A1A1A;
+    border-right: 1px solid #FFFFFF;
+}
+tr:nth-child(2n) {
+    background: #F1F1F1; /* Цвет фона */
+}
+
+/* Rectangle 26 */
+.rectangle_26{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 584px;
+    top: 771px;
+    background: #3A80BA;
+    border-radius: 8px;
+}
+
+/* Rectangle 27 */
+.rectangle_27{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 640px;
+    top: 771px;
+
+    border: 2px solid #F1F1F1;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.rectangle_26.rectangle_27 a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* AppCo */
+.AppCo{
+    position: absolute;
+    width: 136px;
+    height: 49px;
+    left: 130px;
+    top: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+/* AppCo footer */
+.appco_footer{
+    /*position: absolute;*/
+    /*width: 82px;*/
+    /*height: 29px;*/
+    /*left: 130px;*/
+    /*top: 857px;*/
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+/* Users statistics */
+.users_stat span{
+    position: absolute;
+    width: 253px;
+    height: 39px;
+    left: 130px;
+    top: 132px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+    color: #1A1A1A;
+}
+
+/* Rectangle 31 */
+.rectangle_31{
+    position: absolute;
+    width: 100%;
+    height: 57px;
+    left: 0;
+    top: 843px;
+    background: #1C3B55;
+}
+
+.rectangle_31 span{
+    margin: 12%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 142%;
+    /* identical to box height, or 23px */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* User */
+
+.user{
+    position: absolute;
+    width: 221px;
+    height: 39px;
+    left: 130px;
+    top: 132px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+    color: #1A1A1A;
+}
+
+/* Clicks */
+
+.clicks span{
+    position: absolute;
+    width: auto;
+    height: 29px;
+    left: 130px;
+    top: 195px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1A1A1A;
+}
+
+
+.highcharts-figure, .highcharts-data-table table {
+    min-width: 360px;
+    max-width: 800px;
+    margin: 1em auto;
+}
+
+.highcharts-data-table table {
+    font-family: Verdana, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #EBEBEB;
+    margin: 10px auto;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+.highcharts-data-table caption {
+    padding: 1em 0;
+    font-size: 1.2em;
+    color: #555;
+}
+.highcharts-data-table th {
+    font-weight: 600;
+    padding: 0.5em;
+}
+.highcharts-data-table td, .highcharts-data-table th, .highcharts-data-table caption {
+    padding: 0.5em;
+}
+.highcharts-data-table thead tr, .highcharts-data-table tr:nth-child(even) {
+    background: #f8f8f8;
+}
+.highcharts-data-table tr:hover {
+    background: #f1f7ff;
+}
+
+.highcharts-container {
+    margin: 25% 0 auto;
+}
+
+
